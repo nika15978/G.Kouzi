@@ -1,0 +1,94 @@
+main .main-content {
+    margin-left: 70px;
+    margin-right: 30px;
+    margin-top: 70px;
+}
+
+main .main-content .top {
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+main .main-content .top .text,
+main .main-content .top .video video {
+    display: inline;
+}
+
+main .main-content .top .text {
+    float: left;
+}
+
+main .main-content .top .text .background-image {
+    background-image: url(../imges/4bsu36wbwimsgl4w0nh5zyeelaatru70.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+main .main-content .top .text .clear {
+    margin: 0;
+}
+
+main .main-content .top .text .video {
+    height: min-content;
+
+    float: right;
+}
+
+main .main-content .middle .text {
+    float: right;
+}
+
+main .main-content .middle .text .clear {
+    margin: 0;
+}
+
+main .main-content .middle .text .background-image1 {
+    background-image: url(../imges/m3w2nbzwej0lw1pzjuckauovtpnvnslv.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    object-fit: fill;
+}
+
+main .main-content .middle .text .video {
+    height: min-content;
+
+    float: left;
+}
+
+main .main-content .middle .text .space {
+    padding-left: 10px;
+}
+
+.hamburger .main-burger {
+    position: relative;
+    top: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hamburger .main-burger div {
+    height: 30px;
+}
+
+.hamburger .main-burger div a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    height: 100%;
+}
+
+.hamburger .language-burger {
+    position: relative;
+
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}

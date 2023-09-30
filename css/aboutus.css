@@ -1,0 +1,75 @@
+@media(min-width:250px) {
+    #main {
+        width: 100%;
+        position: relative;
+        top: 50px;
+
+    }
+
+    #main section {
+        position: relative;
+        max-width: 1100px;
+        width: 100%;
+        background-color: white;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    #main section p {
+        width: 300px;
+        position: relative;
+        top: 80px;
+        margin: 0 25px 200px 0;
+
+
+    }
+
+    #main section div {
+        position: relative;
+        display: grid;
+        place-items: center;
+
+
+    }
+
+    #main section div span {
+
+        width: 60px;
+        height: 60px;
+        display: inline;
+        position: absolute;
+        left: 60px;
+        top: 10px;
+        background-image: url(../imges/IMG-20230812-WA0003.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        border-radius: 0 20px;
+        transform: rotate(-20deg);
+    }
+
+    #main section div h2 {
+        position: absolute;
+        width: max-content;
+        top: 20px;
+        left: 130px;
+    }
+}
+
+@media (min-width:900px) {
+    #main section p {
+        width: 600px;
+        position: relative;
+        top: 80px;
+        margin: 0 25px;
+
+    }
+
+    #main section div h2 {
+        position: absolute;
+        width: max-content;
+        top: 20px;
+        left: 260px;
+    }
+}
